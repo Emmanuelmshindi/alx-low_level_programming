@@ -21,6 +21,6 @@ _putchar(*str);
 str++;
 }
 
-_putchar('\n')
+_putchar('\n');
 }
 
