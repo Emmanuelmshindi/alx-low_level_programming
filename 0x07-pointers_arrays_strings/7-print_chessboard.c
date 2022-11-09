@@ -1,12 +1,11 @@
-#include "main.h"i
+#include "main.h"
 
 /**
- * print_chessboard - prints a chessboard
- * @a: the chessboard to be printed
+ * print_chessboard - prints chessboard.
  *
- * Return: nothing
+ * @a: rows.
+ * Return: nothing.
  */
-
 void print_chessboard(char (*a)[8])
 {
 int i, j;
