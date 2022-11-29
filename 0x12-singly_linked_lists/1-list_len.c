@@ -11,8 +11,8 @@ int nodes = 0;
 
 while (h)
 {
-nodes+=1;
-h=h->next
+nodes += 1;
+h = h->next
 }
-return(nodes);
+retur n(nodes);
 }
