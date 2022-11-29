@@ -12,7 +12,7 @@ int nodes = 0;
 while (h)
 {
 nodes += 1;
-h = h->next
+h = h->next;
 }
-retur n(nodes);
+return(nodes);
 }
