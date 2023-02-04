@@ -1,12 +1,12 @@
 #include "hash_tables.h"
 
 /**
- * void hash_table_print - Print a hash table
- * @ht: Hash table to be printed
- */
+*hash_table_print - print key/values of hash table in order
+*@ht: hash table
+*/
 void hash_table_print(const hash_table_t *ht)
 {
-unsigned int long idx = 0;
+unsigned long int idx = 0;
 hash_node_t *node;
 char *comma = "";
 
@@ -25,16 +25,5 @@ node = node->next;
 }
 idx++;
 }
-puts('}');
+puts("}");
 }
-
-
-
-
-
-for (i = 0; i < ht->size; i++)
-{
-if ht->array[i]
-{
-printf
-
