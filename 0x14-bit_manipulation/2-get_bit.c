@@ -1,19 +1,19 @@
 #include "main.h"
 
 /**
- * int get_bit - function to return bit at a given index
+ * get_bit - function to return bit at a given index
  * @n: integer
  * @index: index to find
  *
- * return: value of bit at index index or -1 if error occured
+ * Return: value of bit at index index or -1 if error occured
  */
 
 int get_bit(unsigned long int n, unsigned int index)
 {
 	int bit;
-	if (index >= sizeof(unsigned int) * 8) {
+
+	if (index >= sizeof(unsigned int) * 8)
 		return (-1);
-	}
 	bit = (n >> index) & 1;
-	return bit;
+	return (bit);
 }
